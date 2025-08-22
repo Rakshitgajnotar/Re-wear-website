@@ -5,37 +5,26 @@ Develop ReWear, a web-based platform that enables users to exchange unused cloth
 
 ReWear offers an eco-friendly way to refresh your wardrobe. Users can list unused clothes and choose between direct swaps or redeeming them through a credit system. The platform promotes responsible consumption while making fashion accessible and sustainable.
 
-🚀 Features
+🚀 Features:
 🔐 User Authentication
-
 Secure sign-up and login using email and password
 
 🏠 Landing Page
-
 Introductory details about the platform
-
 Clear call-to-action buttons (e.g., Start Swapping)
 
 👤 User Dashboard
-
 View profile info and check points balance
-
 See uploaded items at a glance
-
 Track ongoing and completed swaps
 
 👗 Item Detail Page
-
 Full description with image gallery
-
 Uploader details
-
 Options to request a swap or redeem with points
-
 Shows availability status of each item
 
 ➕ Add New Item Page
-
 Upload product images
 
 Add item details:
