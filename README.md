@@ -1,77 +1,31 @@
 # Re-wear-website
-ReWear – Community Clothing Exchange
-Develop ReWear, a web-based platform that enables users to exchange unused clothing through direct swaps or a point-based redemption system. The goal is to promote sustainable fashion and reduce textile waste by encouraging users to reuse wearable garments instead of discarding them.
-🌍 About the Project
+👕 ReWear – Clothing Exchange Platform
+Overview
 
-ReWear offers an eco-friendly way to refresh your wardrobe. Users can list unused clothes and choose between direct swaps or redeeming them through a credit system. The platform promotes responsible consumption while making fashion accessible and sustainable.
+ReWear is a web-based platform that promotes sustainable fashion by enabling users to exchange unused clothing through direct swaps or a point-based redemption system. Instead of discarding wearable garments, users can refresh their wardrobe in an eco-friendly way while reducing textile waste.
 
-🚀 Features
-🔐 User Authentication
+✨ Features
 
-Secure sign-up and login using email and password
+ReWear provides secure authentication with email and password, ensuring a safe experience for all users. The platform features a clean landing page with clear calls-to-action to get started. Each user has a personal dashboard where they can view their profile details, check their points balance, and track uploaded items as well as ongoing or completed swaps.
 
-🏠 Landing Page
+Users can easily list new clothing items by uploading images and entering key details like title, description, category, size, type, and condition. Each item has a dedicated detail page with an image gallery, uploader information, availability status, and options to either request a swap or redeem using points.
 
-Introductory details about the platform
+To keep the platform reliable and community-friendly, an admin panel allows administrators to review and approve new listings, remove inappropriate content, and manage overall platform activity.
 
-Clear call-to-action buttons (e.g., Start Swapping)
+🛠️ Tech Stack
 
-👤 User Dashboard
+Frontend: React.js, TailwindCSS, Axios
+Backend: Node.js, Express.js, MongoDB (Mongoose), JWT Authentication
+Other Tools: Cloudinary/Firebase (image hosting), Nodemailer (email notifications), Redux/Context API (state management)
 
-View profile info and check points balance
+🚀 How It Works
 
-See uploaded items at a glance
+Sign Up / Log In – Create an account securely.
 
-Track ongoing and completed swaps
+Upload Items – Add details and images of clothes you no longer use.
 
-👗 Item Detail Page
+Swap or Redeem – Exchange directly with others or redeem items using points.
 
-Full description with image gallery
+Track Activity – Use the dashboard to manage your swaps, items, and points.
 
-Uploader details
-
-Options to request a swap or redeem with points
-
-Shows availability status of each item
-
-➕ Add New Item Page
-
-Upload product images
-
-Add item details:
-
-Title, Description, Category, Type, Size, Condition
-
-🛠️ Admin Role
-
-Approve or reject submitted listings
-
-Remove spam or inappropriate content
-
-Lightweight admin dashboard for platform management
-
-🧑‍💻 Tech Stack
-
-Frontend:
-
-React.js
-
-TailwindCSS / CSS Modules
-
-Axios for API integration
-
-Backend:
-
-Node.js with Express
-
-MongoDB (with Mongoose ODM)
-
-JWT for authentication
-
-Other Tools:
-
-Cloudinary or Firebase for image hosting
-
-Nodemailer for email alerts (optional)
-
-Redux or Context API (optional state management)
+Admin Oversight – Admins approve items and ensure a safe community environment.
